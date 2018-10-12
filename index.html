@@ -4,82 +4,84 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 		<!--My css styles-->
 		<link rel="stylesheet" href="style.css"/>
 	</head>
 
 	<body>
-		<nav class="navbar navbar-inverse">
-			<div class="container-fluid">
-			    <div class="navbar-header">
-			      	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-			        	<span class="icon-bar"></span>
-			        	<span class="icon-bar"></span>
-			        	<span class="icon-bar"></span> 
-				    </button>
-				   	<a class="navbar-brand" href="#">OITNB Fan Page</a>
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-				    <ul class="nav navbar-nav">
-				        <li class="active"><a href="index.html"><span class = "glyphicon glyphicon-home"></span></a></li>
-				        <li><a href="episodes.html">Episodes</a></li>
-				        <li><a href="characters.html">Characters</a></li>
-				        <li><a href="contact.html">Contact</a></li> 
-				    </ul>
-				    <ul class="nav navbar-nav navbar-right">
-					    <li><a href="http://www.netflix.com"><span class="glyphicon glyphicon-film"></span> Sign Up for Netflix</a></li>
-				    </ul>
-				</div>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">OITNB Fan Page</a>
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+								<a href="index.html" class="nav-link text-light"><i class="fas fa-home"></i></a>
+							</li>
+							<li class="nav-item"><a href="episodes.html" class="nav-link text-light">Episodes</a></li>
+							<li class="nav-item"><a href="characters.html" class="nav-link text-light">Characters</a></li>
+							<li class="nav-item"><a href="contact.html" class="nav-link text-light">Contact</a></li>
+					</ul>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a href="http://www.netflix.com" class="nav-link  text-light"><i class="fas fa-film"></i> Sign Up for Netflix</a>
+						</li>
+					</ul>
 			</div>
 		</nav>
 		<!--End of navigation bar-->
 
-		<div class= "jumbotron">
-			<h1>Orange is the New Black <small>Fan Page</small></h1>
-			<p>"All I wanted was to eat the chicken that was smarter than all the other chickens to absorb its power. And to make a nice Kiev." - Red</p>
-			<img src = "images/fullcast.jpg" class="img-responsive">
+		<div class= "jumbotron jumbotron-fluid">
+			<div class="container-fluid">
+				<h1>Orange is the New Black <small>Fan Page</small></h1>
+				<h3>"All I wanted was to eat the chicken that was smarter than all the other chickens to absorb its power. And to make a nice Kiev." - Red</p>
+				<img src = "images/fullcast.jpg" class="img-fluid">
+			</div>
 		</div>
-		
+
 		<div class = "container">
 			<div class="row">
-			  	
-			  	<div class="col-sm-12 col-md-12 orangebox">
-			    	<h3>About the Show</h3>
+			  	<div class="col orangebox">
+			    	<h2>About the Show</h2>
 			    	<h4><i>Orange Is the New Black</i> is an American comedy-drama series created by Jenji Kohan, which premiered on July 11, 2013, on Netflix. The series, based on Piper Kerman's memoir <i>Orange Is the New Black: My Year in a Women's Prison</i> (2010), follows Piper Chapman, a happily engaged New Yorker who is sent to a women's federal prison for transporting a suitcase full of drug money across international borders, 10 years prior, for her girlfriend at the time, Alex Vause.</h4>
 			  	</div>
 			</div>
 			</br>
 			<div class = "row">
 			 	<!--Using push and pull to rearrange content on mobile screens-->
-			 	<div class="col-xs-12 col-md-push-4 col-md-4 blue-graybox">
+			 	<div class="col-md  blue-graybox">
 			 		<h3 class="white"><i>Orange Is the New Black</i> Has Been Renewed for S5, S6, & S7!</h3>
-			 		<h4 class="white">“Jenji and her team have produced a phenomenal and impactful series that is both funny and dramatic, outrageous and heartfelt. Audiences around the world have come to love the ladies and men of <i>Orange Is the New Black,</i> and we are eager to see where three more seasons will take them,” said Cindy Holland, Netflix’s VP of original content.</h4>
-			 	</div>
-			 	
-			 	<div class="col-xs-6 col-md-pull-4 col-md-4 dark-bluebox">
-			 		<h3 class="white">Quote of the Week</h3>
-			 		<h4 class="white">"So, like, we didn't get to finish dinner, so are we gonna, like, get a second dinner like hobbits or...."</h4>
-			 		<h4 class="white">- Crazy Eyes</h4>
+					<p class="white">“Jenji and her team have produced a phenomenal and impactful series that is both funny and dramatic, outrageous and heartfelt. Audiences around the world have come to love the ladies and men of <i>Orange Is the New Black,</i> and we are eager to see where three more seasons will take them,” said Cindy Holland, Netflix’s VP of original content.</p>
 			 	</div>
 
-			 	<div class="col-xs-6 col-md-4">
-				<a href="http://www.imdb.com/title/tt2511030/" class="thumbnail">
-			      	<h3>Favorite Episode <small>"The Chickening"</small></h3> 
-			      	<img src="images/chicken.jpg" alt="I Wasn't Ready" class="img-responsive">
+			 	<div class="col-md dark-bluebox">
+			 		<h3 class="white">Quote of the Week</h3>
+			 		<p class="white">"So, like, we didn't get to finish dinner, so are we gonna, like, get a second dinner like hobbits or...."</p>
+			 		<p class="white">- Crazy Eyes</p>
+			 	</div>
+
+			 	<div class="col-md card">
+					<a href="http://www.imdb.com/title/tt2511030/" class="card-body card-link">
+			      	<h3 class="card-title">Favorite Episode <br/>
+							<small>"The Chickening"</small></h3>
+			      	<img src="images/chicken.jpg" alt="I Wasn't Ready" class="img-fluid">
 			    	</a>
 			 	</div>
-
 			 </div>
- 	
+
 			</div>
-	
 		</div>
-		
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="jquery-3.1.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstap/js/bootstrap.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 	</body>
 
 </html>

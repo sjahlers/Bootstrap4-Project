@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang = "en">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<!--My css styles-->
-		<link rel="stylesheet" href="style.css"/>
-	</head>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+	<!--My css styles-->
+	<link rel="stylesheet" href="style.css"/>
+</head>
 
 	<body>
 
-		<nav class="navbar navbar-inverse">
-			<div class="container-fluid">
-			    <div class="navbar-header">
-			      	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-			        	<span class="icon-bar"></span>
-			        	<span class="icon-bar"></span>
-			        	<span class="icon-bar"></span> 
-				    </button>
-				   	<a class="navbar-brand" href="#">OITNB Fan Page</a>
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-				    <ul class="nav navbar-nav">
-				        <li class="active"><a href="index.html"><span class = "glyphicon glyphicon-home"></a></li>
-				        <li><a href="episodes.html">Episodes</a></li>
-				        <li><a href="characters.html">Characters</a></li> 
-				        <li><a href="contact.html">Contact</a></li>
-				    </ul>
-				    <ul class="nav navbar-nav navbar-right">
-					    <li><a href="http://www.netflix.com"><span class="glyphicon glyphicon-film"></span> Sign Up for Netflix</a></li>
-				    </ul>
-				</div>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="#">OITNB Fan Page</a>
+			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="navbar-nav mr-auto">
+							<li class="nav-item active">
+								<a href="index.html" class="nav-link text-light"><i class="fas fa-home"></i></a>
+							</li>
+							<li class="nav-item"><a href="episodes.html" class="nav-link text-light">Episodes</a></li>
+							<li class="nav-item"><a href="characters.html" class="nav-link text-light">Characters</a></li>
+							<li class="nav-item"><a href="contact.html" class="nav-link text-light">Contact</a></li>
+					</ul>
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a href="http://www.netflix.com" class="nav-link  text-light"><i class="fas fa-film"></i> Sign Up for Netflix</a>
+						</li>
+					</ul>
 			</div>
 		</nav>
-		<!-- end of navigation bar -->
+		<!--End of navigation bar-->
 
 		<div class = "container">
 
@@ -42,7 +42,7 @@
 
 			<div class = "row">
 				<div class = "col-sm-4 col-md-3">
-					<img src = "images/piper.jpg" class="img-rounded img-responsive center-block" alt = "Piper Chapman">
+					<img src = "images/piper.jpg" class="img-rounded img-fluid center-block" alt = "Piper Chapman">
 				</div>
 				<div class = "col-sm-4 col-md-3">
 					<h4>Piper Chapman</h4>
@@ -54,7 +54,7 @@
 			</br>
 			<div class = "row">
 				<div class = "col-sm-4 col-md-3">
-					<img src = "images/alex.jpg" class="img-rounded img-responsive center-block" alt="Alex Vause">
+					<img src = "images/alex.jpg" class="img-rounded img-fluid center-block" alt="Alex Vause">
 				</div>
 				<div class = "col-sm-4 col-md-3">
 					<h4>Alex Vause</h4>
@@ -66,7 +66,7 @@
 			</br>
 			<div class = "row">
 				<div class = "col-sm-4 col-md-3">
-					<img src = "images/red.jpg" class="img-rounded img-responsive center-block" alt="Galina Reznikov">
+					<img src = "images/red.jpg" class="img-rounded img-fluid center-block" alt="Galina Reznikov">
 				</div>
 				<div class = "col-sm-4 col-md-3">
 					<h4>Galina Reznikov "Red"</h4>
@@ -78,7 +78,7 @@
 			</br>
 			<div class = "row">
 				<div class = "col-sm-4 col-md-3">
-					<img src = "images/suzanne.jpg" class="img-rounded img-responsive center-block" alt="Suzanne Warren">
+					<img src = "images/suzanne.jpg" class="img-rounded img-fluid center-block" alt="Suzanne Warren">
 				</div>
 				<div class = "col-sm-4 col-md-3">
 					<h4>Suzanne Warren</h4>
@@ -90,7 +90,7 @@
 			</br>
 			<div class = "row">
 				<div class = "col-sm-4 col-md-3">
-					<img src = "images/tasha.jpg"  class="img-rounded img-responsive center-block" alt="Tasha Jefferson">
+					<img src = "images/tasha.jpg"  class="img-rounded img-fluid center-block" alt="Tasha Jefferson">
 				</div>
 				<div class = "col-sm-4 col-md-3">
 					<h4>Tasha Jefferson "Taystee"</h4>
@@ -103,11 +103,13 @@
 
 
 		</div>
-		
+
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="jquery-3.1.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstap/js/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	    <!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 	</body>
 
 </html>
